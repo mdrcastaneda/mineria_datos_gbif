@@ -4,6 +4,7 @@ library(tidyverse)
 # Vamos a hacer cambios en el archivo
 #
 data <- read.csv("~/Desktop/CLASES/Icesi/*Analisis de Datos II (Bioinformática)/Talleres/mineria_datos_gbif/data/gbifdata_tfuscater.csv")
+write.csv(data, file = "data/testDATA.csv")
 
 #### Explore su archivo resultante y responda:
 #- En qué departamentos se ha registrado la especie, y cuántos registros
